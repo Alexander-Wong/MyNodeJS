@@ -1,0 +1,306 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'connect' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'connect', null ]
+6 verbose cache add name=undefined spec="connect" args=["connect",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'connect',
+7 verbose parsed url   path: 'connect',
+7 verbose parsed url   href: 'connect' }
+8 silly lockFile f11a107f-connect connect
+9 verbose lock connect /home/awong/.npm/f11a107f-connect.lock
+10 silly lockFile f11a107f-connect connect
+11 silly lockFile f11a107f-connect connect
+12 verbose addNamed [ 'connect', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 6c45e0f3-connect connect@
+15 verbose lock connect@ /home/awong/.npm/6c45e0f3-connect.lock
+16 silly addNameRange { name: 'connect', range: '*', hasData: false }
+17 verbose request where is /connect
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 9f02c732e8ee69cc
+20 verbose url raw /connect
+21 verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+22 verbose url resolved https://registry.npmjs.org/connect
+23 verbose request where is https://registry.npmjs.org/connect
+24 info trying registry request attempt 1 at 07:30:03
+25 verbose etag "C4FI3J1IXP5K3JK93DVGIJXJ9"
+26 http GET https://registry.npmjs.org/connect
+27 http 304 https://registry.npmjs.org/connect
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Sat, 09 May 2015 13:30:04 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"C4FI3J1IXP5K3JK93DVGIJXJ9"',
+28 silly registry.get     age: '14',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-atl6220-ATL',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1431178204.906883,VS0,VE1',
+28 silly registry.get     vary: 'Accept' } ]
+29 verbose etag https://registry.npmjs.org/connect from cache
+30 silly addNameRange number 2 { name: 'connect', range: '*', hasData: true }
+31 silly addNameRange versions [ 'connect',
+31 silly addNameRange   [ '0.0.1',
+31 silly addNameRange     '0.0.2',
+31 silly addNameRange     '0.0.3',
+31 silly addNameRange     '0.0.4',
+31 silly addNameRange     '0.0.5',
+31 silly addNameRange     '0.0.6',
+31 silly addNameRange     '0.1.0',
+31 silly addNameRange     '0.2.0',
+31 silly addNameRange     '0.2.1',
+31 silly addNameRange     '0.2.2',
+31 silly addNameRange     '0.2.3',
+31 silly addNameRange     '0.2.4',
+31 silly addNameRange     '0.2.5',
+31 silly addNameRange     '0.2.6',
+31 silly addNameRange     '0.2.7',
+31 silly addNameRange     '0.3.0',
+31 silly addNameRange     '0.4.0',
+31 silly addNameRange     '0.5.0',
+31 silly addNameRange     '0.5.1',
+31 silly addNameRange     '0.5.2',
+31 silly addNameRange     '0.5.3',
+31 silly addNameRange     '0.5.4',
+31 silly addNameRange     '0.5.5',
+31 silly addNameRange     '0.5.6',
+31 silly addNameRange     '0.5.7',
+31 silly addNameRange     '0.5.8',
+31 silly addNameRange     '0.5.9',
+31 silly addNameRange     '0.5.10',
+31 silly addNameRange     '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '1.0.3',
+31 silly addNameRange     '1.0.4',
+31 silly addNameRange     '1.0.5',
+31 silly addNameRange     '1.0.6',
+31 silly addNameRange     '1.1.0',
+31 silly addNameRange     '1.1.1',
+31 silly addNameRange     '1.1.2',
+31 silly addNameRange     '1.1.3',
+31 silly addNameRange     '1.1.4',
+31 silly addNameRange     '1.1.5',
+31 silly addNameRange     '1.2.0',
+31 silly addNameRange     '1.2.1',
+31 silly addNameRange     '1.2.2',
+31 silly addNameRange     '1.2.3',
+31 silly addNameRange     '1.3.0',
+31 silly addNameRange     '1.4.0',
+31 silly addNameRange     '1.4.1',
+31 silly addNameRange     '1.4.2',
+31 silly addNameRange     '1.4.3',
+31 silly addNameRange     '1.4.4',
+31 silly addNameRange     '1.4.5',
+31 silly addNameRange     '1.4.6',
+31 silly addNameRange     '1.5.0',
+31 silly addNameRange     '1.5.1',
+31 silly addNameRange     '1.5.2',
+31 silly addNameRange     '1.6.0',
+31 silly addNameRange     '1.6.1',
+31 silly addNameRange     '1.6.2',
+31 silly addNameRange     '1.6.3',
+31 silly addNameRange     '1.6.4',
+31 silly addNameRange     '1.7.0',
+31 silly addNameRange     '1.7.1',
+31 silly addNameRange     '1.7.2',
+31 silly addNameRange     '1.7.3',
+31 silly addNameRange     '1.8.0',
+31 silly addNameRange     '1.8.1',
+31 silly addNameRange     '1.8.2',
+31 silly addNameRange     '1.8.3',
+31 silly addNameRange     '1.8.4',
+31 silly addNameRange     '1.8.5',
+31 silly addNameRange     '2.0.0',
+31 silly addNameRange     '2.0.1',
+31 silly addNameRange     '2.0.2',
+31 silly addNameRange     '2.0.3',
+31 silly addNameRange     '1.8.6',
+31 silly addNameRange     '2.1.0',
+31 silly addNameRange     '2.1.1',
+31 silly addNameRange     '2.1.2',
+31 silly addNameRange     '1.8.7',
+31 silly addNameRange     '2.1.3',
+31 silly addNameRange     '2.2.0',
+31 silly addNameRange     '2.2.1',
+31 silly addNameRange     '2.2.2',
+31 silly addNameRange     '2.3.0',
+31 silly addNameRange     '2.3.1',
+31 silly addNameRange     '2.3.2',
+31 silly addNameRange     '2.3.3',
+31 silly addNameRange     '1.9.0',
+31 silly addNameRange     '1.9.1',
+31 silly addNameRange     '2.3.4',
+31 silly addNameRange     '2.3.5',
+31 silly addNameRange     '2.3.6',
+31 silly addNameRange     '2.3.7',
+31 silly addNameRange     '1.9.2',
+31 silly addNameRange     '2.3.8',
+31 silly addNameRange     '2.3.9',
+31 silly addNameRange     '2.4.0',
+31 silly addNameRange     '2.4.1',
+31 silly addNameRange     '2.4.2',
+31 silly addNameRange     '2.4.3',
+31 silly addNameRange     '2.4.4',
+31 silly addNameRange     '2.4.5',
+31 silly addNameRange     '2.4.6',
+31 silly addNameRange     '2.5.0',
+31 silly addNameRange     '2.6.0',
+31 silly addNameRange     '2.6.1',
+31 silly addNameRange     '2.6.2',
+31 silly addNameRange     '2.7.0',
+31 silly addNameRange     '2.7.1',
+31 silly addNameRange     '2.7.2',
+31 silly addNameRange     '2.7.3',
+31 silly addNameRange     '2.7.4',
+31 silly addNameRange     '2.7.5',
+31 silly addNameRange     '2.7.6',
+31 silly addNameRange     '2.7.7',
+31 silly addNameRange     '2.7.8',
+31 silly addNameRange     '2.7.9',
+31 silly addNameRange     '2.7.10',
+31 silly addNameRange     '2.7.11',
+31 silly addNameRange     '2.8.0',
+31 silly addNameRange     '2.8.1',
+31 silly addNameRange     '2.8.2',
+31 silly addNameRange     '2.8.3',
+31 silly addNameRange     '2.8.4',
+31 silly addNameRange     '2.8.5',
+31 silly addNameRange     '2.8.6',
+31 silly addNameRange     '2.8.7',
+31 silly addNameRange     '2.8.8',
+31 silly addNameRange     '2.9.0',
+31 silly addNameRange     '2.9.1',
+31 silly addNameRange     '2.9.2',
+31 silly addNameRange     '2.10.0',
+31 silly addNameRange     '2.10.1',
+31 silly addNameRange     '2.11.0',
+31 silly addNameRange     '2.11.1',
+31 silly addNameRange     '2.11.2',
+31 silly addNameRange     '2.12.0',
+31 silly addNameRange     '2.13.0',
+31 silly addNameRange     '2.13.1',
+31 silly addNameRange     '2.14.0',
+31 silly addNameRange     '2.14.1',
+31 silly addNameRange     '3.0.0-rc.1',
+31 silly addNameRange     '2.14.2',
+31 silly addNameRange     '2.14.3',
+31 silly addNameRange     '2.14.4',
+31 silly addNameRange     '2.14.5',
+31 silly addNameRange     '2.15.0',
+31 silly addNameRange     '3.0.0-rc.2',
+31 silly addNameRange     '2.16.0',
+31 silly addNameRange     '2.16.1',
+31 silly addNameRange     '2.16.2',
+31 silly addNameRange     '2.17.0',
+31 silly addNameRange     '2.17.1',
+31 silly addNameRange     '2.17.2',
+31 silly addNameRange     '2.17.3',
+31 silly addNameRange     '2.18.0',
+31 silly addNameRange     '3.0.0',
+31 silly addNameRange     '2.19.0',
+31 silly addNameRange     '2.19.1',
+31 silly addNameRange     '2.19.2',
+31 silly addNameRange     '2.19.3',
+31 silly addNameRange     '2.19.4',
+31 silly addNameRange     '2.19.5',
+31 silly addNameRange     '2.19.6',
+31 silly addNameRange     '2.20.0',
+31 silly addNameRange     '2.20.1',
+31 silly addNameRange     '2.20.2',
+31 silly addNameRange     '3.0.1',
+31 silly addNameRange     '2.21.0',
+31 silly addNameRange     '2.21.1',
+31 silly addNameRange     '2.22.0',
+31 silly addNameRange     '2.23.0',
+31 silly addNameRange     '3.0.2',
+31 silly addNameRange     '2.24.0',
+31 silly addNameRange     '3.1.0',
+31 silly addNameRange     '2.24.1',
+31 silly addNameRange     '2.24.2',
+31 silly addNameRange     '2.24.3',
+31 silly addNameRange     '2.25.0',
+31 silly addNameRange     '2.25.1',
+31 silly addNameRange     '2.25.2',
+31 silly addNameRange     '2.25.3',
+31 silly addNameRange     '2.25.4',
+31 silly addNameRange     '3.1.1',
+31 silly addNameRange     '2.25.5',
+31 silly addNameRange     '2.25.6',
+31 silly addNameRange     '2.25.7',
+31 silly addNameRange     '2.25.8',
+31 silly addNameRange     '2.25.9',
+31 silly addNameRange     '2.25.10',
+31 silly addNameRange     '2.26.0',
+31 silly addNameRange     '3.2.0',
+31 silly addNameRange     '2.26.1',
+31 silly addNameRange     '2.26.2',
+31 silly addNameRange     '2.26.3',
+31 silly addNameRange     '2.26.4',
+31 silly addNameRange     '2.26.5',
+31 silly addNameRange     '2.26.6',
+31 silly addNameRange     '2.27.0',
+31 silly addNameRange     '3.3.0',
+31 silly addNameRange     '2.27.1',
+31 silly addNameRange     '3.3.1',
+31 silly addNameRange     '2.27.2',
+31 silly addNameRange     '3.3.2',
+31 silly addNameRange     '2.27.3',
+31 silly addNameRange     '3.3.3',
+31 silly addNameRange     '2.27.4',
+31 silly addNameRange     '2.27.5',
+31 silly addNameRange     '2.27.6',
+31 silly addNameRange     '2.28.0',
+31 silly addNameRange     '3.3.4',
+31 silly addNameRange     '2.28.1',
+31 silly addNameRange     '2.28.2',
+31 silly addNameRange     '2.28.3',
+31 silly addNameRange     '2.29.0',
+31 silly addNameRange     '2.29.1',
+31 silly addNameRange     '3.3.5' ] ]
+32 verbose addNamed [ 'connect', '3.3.5' ]
+33 verbose addNamed [ '3.3.5', '3.3.5' ]
+34 silly lockFile 10f076f0-connect-3-3-5 connect@3.3.5
+35 verbose lock connect@3.3.5 /home/awong/.npm/10f076f0-connect-3-3-5.lock
+36 silly lockFile 89889d54-js-org-connect-connect-3-3-5-tgz https://registry.npmjs.org/connect/-/connect-3.3.5.tgz
+37 verbose lock https://registry.npmjs.org/connect/-/connect-3.3.5.tgz /home/awong/.npm/89889d54-js-org-connect-connect-3-3-5-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect/-/connect-3.3.5.tgz',
+38 verbose addRemoteTarball   'd1d9958c90a830bb429271e7a0a4aaaa9d033cab' ]
+39 info retry fetch attempt 1 at 07:30:05
+40 verbose fetch to= /tmp/npm-5488-k3vRuNBN/registry.npmjs.org/connect/-/connect-3.3.5.tgz
+41 http GET https://registry.npmjs.org/connect/-/connect-3.3.5.tgz
+42 http 200 https://registry.npmjs.org/connect/-/connect-3.3.5.tgz
+43 silly lockFile 89889d54-js-org-connect-connect-3-3-5-tgz https://registry.npmjs.org/connect/-/connect-3.3.5.tgz
+44 silly lockFile 89889d54-js-org-connect-connect-3-3-5-tgz https://registry.npmjs.org/connect/-/connect-3.3.5.tgz
+45 silly lockFile 10f076f0-connect-3-3-5 connect@3.3.5
+46 silly lockFile 10f076f0-connect-3-3-5 connect@3.3.5
+47 silly lockFile 6c45e0f3-connect connect@
+48 silly lockFile 6c45e0f3-connect connect@
+49 error Error: EACCES, mkdir '/home/awong/.npm/connect/3.3.5'
+49 error  { [Error: EACCES, mkdir '/home/awong/.npm/connect/3.3.5']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/home/awong/.npm/connect/3.3.5' }
+50 error Please try running this command again as root/Administrator.
+51 error System Linux 3.13.0-49-generic
+52 error command "/usr/bin/node" "/usr/bin/npm" "install" "connect"
+53 error cwd /home/awong/NodeJS
+54 error node -v v0.10.37
+55 error npm -v 1.4.28
+56 error path /home/awong/.npm/connect/3.3.5
+57 error code EACCES
+58 error errno 3
+59 error stack Error: EACCES, mkdir '/home/awong/.npm/connect/3.3.5'
+60 verbose exit [ 3, true ]
